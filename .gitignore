@@ -1,3 +1,8 @@
+.DS_Store
+# Build files
+out.js
+out.js.map
+out.css
 # Logs
 logs
 *.log
@@ -67,6 +72,7 @@ typings/
 
 # Yarn Integrity file
 .yarn-integrity
+yarn.lock
 
 # dotenv environment variables file
 .env

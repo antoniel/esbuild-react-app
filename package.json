@@ -1,0 +1,18 @@
+{
+  "name": "react-esbuild",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "node ./esbuld.config.js"
+  },
+  "dependencies": {
+    "esbuild": "^0.11.20",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "chokidar": "^3.5.1",
+    "live-server": "^1.2.1"
+  }
+}
