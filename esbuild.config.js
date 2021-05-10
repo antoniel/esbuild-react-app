@@ -6,7 +6,7 @@ const isProduction = process.env.NODE_ENV === "production";
 
 (async () => {
   const build = await esbuild.build({
-    entryPoints: ["src/index.jsx"],
+    entryPoints: ["src/index.tsx"],
     logLevel: "info",
     bundle: true,
     outfile: "public/out.js",
