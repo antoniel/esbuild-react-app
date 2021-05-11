@@ -1,5 +1,4 @@
 module.exports = {
-  collectCoverage: true,
   setupFilesAfterEnv: ["<rootDir>/__tests__/setup.ts"],
   moduleDirectories: ["node_modules", "<rootDir>"],
   collectCoverageFrom: [

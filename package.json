@@ -4,14 +4,15 @@
   "main": "./public/out.js",
   "license": "MIT",
   "scripts": {
-    "dev": "node ./esbuld.config.js"
+    "dev": "node ./esbuild.config.js",
+    "test": "jest"
   },
   "dependencies": {
-    "esbuild": "^0.11.20",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
   "devDependencies": {
+    "esbuild": "^0.11.20",
     "@testing-library/jest-dom": "^5.12.0",
     "@testing-library/react": "^11.2.6",
     "@types/jest": "^26.0.23",
